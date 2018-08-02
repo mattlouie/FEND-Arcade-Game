@@ -26,7 +26,7 @@ var Engine = (function(global) {
         id;
 
     const modal = document.querySelector('.modal-bg');
-    const replay = document.querySelector('.modal-button');
+    const replay = document.querySelector('.playAgain');
 
     replay.addEventListener('click', function() {
       modal.classList.toggle('hide');

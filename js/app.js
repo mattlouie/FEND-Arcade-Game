@@ -96,10 +96,11 @@ class Hero {
 const player = new Hero();
 const bug1 = new Enemy(-101, 0, 250);
 const bug2 = new Enemy(-101, 83, 300);
-const bug3 = new Enemy((-101 * 2.5), 166, 450);
+const bug3 = new Enemy((-101 * 2.5), 166, 500);
 const bug4 = new Enemy((-101 * 2), 0, 150);
+const bug5 = new Enemy(-101, 166, 150)
 const allEnemies = [];
-allEnemies.push(bug1, bug2, bug3, bug4);
+allEnemies.push(bug1, bug2, bug3, bug4, bug5);
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
