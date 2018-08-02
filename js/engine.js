@@ -66,6 +66,10 @@ var Engine = (function(global) {
         /* Use the browser's requestAnimationFrame function to call this
          * function again as soon as the browser is able to draw another frame.
          */
+
+        /* Cancels call for animation when player wins and calls modal. Otherwise, allows animation to continue if player hasn't won.
+
+        */
         if (player.victory === true) {
           win.cancelAnimationFrame(id);
           modal.classList.toggle('hide');
